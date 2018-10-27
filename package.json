@@ -8,20 +8,20 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "lodash": "^2.4.1",
+    "lodash": ">=4.17.5",
     "moment": "^2.9.0",
     "slash": "^1.0.0"
   },
   "deprecated": false,
   "description": "Versioning static assets with Grunt",
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-clean": "~0.4.1",
-    "grunt-contrib-concat": "~0.2.0",
-    "grunt-contrib-jshint": "~0.1.1",
-    "grunt-contrib-nodeunit": "~0.1.2",
-    "grunt-jsdoc": "^0.6.1",
-    "mock-fs": "^2.3.1"
+    "grunt": "^1.0.3",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-jshint": "^2.0.0",
+    "grunt-contrib-nodeunit": "^2.0.0",
+    "grunt-jsdoc": "^2.1.1",
+    "mock-fs": "^4.7.0"
   },
   "engines": {
     "node": ">= 0.10.0"
@@ -48,5 +48,5 @@
   "scripts": {
     "test": "grunt test"
   },
-  "version": "1.0.6"
+  "version": "1.0.0"
 }
